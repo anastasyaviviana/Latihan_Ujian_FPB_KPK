@@ -1,4 +1,3 @@
-
 def fpb(a,b):
     if a<b:
         smaller=a
@@ -13,13 +12,10 @@ def fpb(a,b):
 
 def kpk(a,b):
     kpk=int(a*b/fpb(a,b))
-
     return kpk
 
-
 a=int(input('Masukkan angka pertama :'))
-
 b=int(input('Masukkan angka kedua   :'))
 
 print('FPB dari ',a,' dan ',b,' adalah ',fpb(a,b))
-print('KPK dari ',a,' dan ',b,' adalah ',kpk(a,b))
+print('KPK dari ',a,' dan ',b,' adalah ',kpk(a,b),'\n')
